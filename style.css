@@ -25,10 +25,13 @@ width: 100%;
        padding: 5px;
   }
 
-  header nav .logo-part{
+   .logo-part{
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .hide{
+    display: none;
   }
   header nav .logo-part h1{
   margin-left: 20px;
@@ -85,6 +88,9 @@ width: 100%;
   width: 20%;
 
   padding: 20px;
+}
+.info-child i{
+ padding-left: 10px;
 }
 /* section-2 start here */
 .section-2{
@@ -276,10 +282,37 @@ width: 100%;
   }
 
    /* form section end here */
+   footer{
+    background-color:#F3F3F3;
+    padding: 40px;
+    text-align: center;
+    margin-top: 30px;
+   }
+   footer hr{
+   margin: auto;
+   width: 70%;
+   margin-top: 20px;
+   }
+   footer div i {
+    font-size: 2rem;
+    padding: 10px;
+   }
+   footer p{
+    margin-top: 20px;
+   }
+   footer div {
+    margin-top: 20px;
+   }
+   footer  div span{
+    margin-top: 20px;
+   }
 
 @media screen and (max-width: 600px) {
   .main-container{
     width: 100%;
+  }
+  .hide{
+    display: block;
   }
   .heading-focus{
     background-size: cover;
@@ -288,10 +321,27 @@ width: 100%;
     height: auto;
 
   }
-  header nav .menu-bar ul{
+  header nav .menu-bar ul li:first-child{
     display: none;
    
 }
+header nav .menu-bar ul li:nth-child(2){
+  display: none;
+ 
+}
+header nav .menu-bar ul li:nth-child(3){
+  display: none;
+ 
+}
+header nav .menu-bar ul li:nth-child(4){
+  display: none;
+ 
+}
+header nav .menu-bar ul li:nth-child(5){
+  display: none;
+ 
+}
+
 .info{
   flex-direction: column;
   gap: 10px;

@@ -187,18 +187,20 @@ width: 100%;
  /* section-3 end here */
  /* section-4 start here */
  .section-4{
-  text-align: center;
+  
   margin-top: 30px;
  }
  .section-4>h1{
   margin-bottom: 20px;
   font-size: 2.5rem;
   margin-bottom: 20px;
+  text-align: center;
  }
  .section-4>p{
   margin-bottom: 20px;
 
   margin-bottom: 20px;
+  text-align: center;
  }
 
  .flex-section{
